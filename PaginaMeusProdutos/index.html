@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Pedidos - MAP BTL</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <span class="tech">MAP</span>
+                <span class="loja">BTL</span> 
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquise na nossa loja">
+                <img src="lupa.png" alt="Lupa de pesquisa" class="icone-lupa"> 
+            </div>
+
+            <div class="icons-area">
+                <a href="carrinho.html" title="Carrinho de Compras">
+                    <img src="carrinho.png" alt="Carrinho de compras" class="icone-carrinho">
+                </a>
+                <a href="minha-conta.html" title="Minha Conta">
+                    <img src="usuario.png" alt="Perfil do usuário" class="icone-usuario">
+                </a>
+                <a href="ajuda.html" title="Menu e Ajuda">
+                    <img src="3-barras.png" alt="Menu" class="icone-menu-hamburguer">
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <main class="pagina-pedidos"> 
+        <div class="pagina-header">
+            <a href="#" onclick="history.back()"><img src="seta-esquerda.png" alt="Voltar" class="icone-seta-esquerda"></a>
+            <h1>Meus Pedidos</h1> 
+        </div>
+
+        <section class="lista-pedidos"> 
+            <p class="no-pedidos-message">Carregando pedidos...</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Tech Store</h3>
+            <p>© 2025 - Todos os direitos reservados</p>
+            <div class="footer-links">
+                <span id="telefone" class="icon telefone-icon" title="Copiar telefone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+                        <path
+                            d="M6.62 10.79a15.466 15.466 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z" />
+                    </svg>
+                </span>
+                <a href="https://github.com/bbruno8/trabalho_final_frontend" target="_blank" rel="noopener noreferrer"
+                    class="icon github-icon" title="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0.297C5.371 0.297 0 5.667 0 12.297c0 5.291 3.438 9.784 8.205 11.364.6.111.82-.261.82-.579 0-.285-.011-1.041-.017-2.044-3.338.726-4.042-1.61-4.042-1.61-.546-1.388-1.333-1.758-1.333-1.758-1.09-.745.082-.73.082-.73 1.205.085 1.84 1.238 1.84 1.238 1.07 1.834 2.809 1.304 3.495.997.108-.775.419-1.304.762-1.604-2.665-.306-5.467-1.332-5.467-5.93 0-1.31.467-2.381 1.235-3.222-.124-.303-.535-1.526.117-3.176 0 0 1.008-.322 3.301 1.23.958-.266 1.984-.399 3.003-.404 1.019.005 2.045.138 3.003.404 2.291-1.552 3.298-1.23 3.298-1.23.653 1.65.242 2.873.118 3.176.77.841 1.234 1.912 1.234 3.222 0 4.609-2.805 5.62-5.478 5.921.43.369.814 1.096.814 2.21 0 1.596-.015 2.882-.015 3.274 0 .32.218.694.825.577C20.565 22.078 24 17.588 24 12.297c0-6.63-5.371-12-12-12z" />
+                    </svg>
+                </a>
+            </div>
+
+            <span id="copiado-msg" class="copiado-msg">Número copiado!</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
